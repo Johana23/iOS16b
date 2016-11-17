@@ -1,0 +1,10 @@
+for item in cursos{
+    item
+}
+
+var nt = 23
+var nt2 = 26
+
+if (nt <= nt2){
+    print(str);
+}

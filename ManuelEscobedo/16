@@ -1,0 +1,7 @@
+var a = 1
+var b = 14
+var c=  14
+
+resultado =  "((b*(-1))-(sqrt((-b))-4(a*c))/(2(2))
+print "el resltado es \(resultado)"
+

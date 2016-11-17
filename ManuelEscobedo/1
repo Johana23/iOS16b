@@ -1,0 +1,2 @@
+var str = "Hola mundo,"
+print (str)
