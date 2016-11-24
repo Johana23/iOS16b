@@ -72,13 +72,13 @@ print(z)
 
 if(z == 0)
 {
- print("Si es divisible el numero: ",numm)
+Â print("Si es divisible el numero: ",numm)
 }
 else
 {
 print("No es divisible el numero: ",numm)
 }
-         
+Â Â Â Â Â Â Â Â  
 
 
 8- Determinar si un numero dado es divisible entre 6
@@ -96,15 +96,15 @@ print(z)
 
 if(z == 0)
 {
- print("Si es divisible el numero: ",numm)
+Â print("Si es divisible el numero: ",numm)
 }
 else
 {
 print("No es divisible el numero: ",numm)
 }
 
-9.- Introducir un número y determinar si es par o impar
-print("Introduce un número para ver si es par o impar:  ")
+9.- Introducir un nÃºmero y determinar si es par o impar
+print("Introduce un nÃºmero para ver si es par o impar: Â ")
 if let num = readLine() {
 if let numm = Double(num) {
 let x:Double = Double(numm/2.0) 
@@ -117,7 +117,7 @@ print(z)
 
 if(z == 0)
 {
- print("El numero es par: ")
+Â print("El numero es par: ")
 }
 else
 {
@@ -136,7 +136,7 @@ let y1:Double=Double(y)
 let z:Double = x-y1
 if(z == 0)
 {
- print("PAR”)
+Â print("PARâ€)
 }
 else
 {
