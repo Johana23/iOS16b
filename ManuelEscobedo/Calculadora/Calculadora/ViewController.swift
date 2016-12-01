@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  Calculadora
 //
-//  Created by user on 11/11/16.
-//  Copyright (c) 2016 cris. All rights reserved.
+//  Created by user on 27/11/16.
+//  Copyright (c) 2016 ITT. All rights reserved.
 //
 
 import UIKit
@@ -33,9 +33,9 @@ class ViewController: UIViewController {
         switch operacion {
         case "X": performOperacion { $0 * $1 }
         case "÷": performOperacion { $1 / $0 }
-        case "+": performOperacion { $0 + $1 }
+        case "✚": performOperacion { $0 + $1 }
         case "−": performOperacion { $1 - $0 }
-        case "ℵ": performOperacion2 { sqrt($0) }
+        case "sqrt": performOperacion2 { sqrt($0) }
             
         default: break
             
