@@ -1,4 +1,4 @@
-// Proyecto 1: ejercicio 31
+// Programa 1: ejercicio 31 capitulo 2
 var largoPiscina:Double = 40
 var anchoPiscina:Double = 13
 var velocidadCorriendo:Double = 1
