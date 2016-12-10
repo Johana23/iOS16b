@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE3507331DE40D3A009F8946 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3507311DE40D3A009F8946 /* libsqlite3.0.tbd */; };
+		CE3507341DE40D3A009F8946 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3507321DE40D3A009F8946 /* libsqlite3.tbd */; };
+		D9F0D3751DFABB8A00E97FBE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0D3691DFABB8A00E97FBE /* AppDelegate.m */; };
+		D9F0D3761DFABB8A00E97FBE /* Data.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0D36B1DFABB8A00E97FBE /* Data.m */; };
+		D9F0D3781DFABB8A00E97FBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0D36D1DFABB8A00E97FBE /* main.m */; };
+		D9F0D3791DFABB8A00E97FBE /* prueba.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = D9F0D36E1DFABB8A00E97FBE /* prueba.sqlite */; };
+		D9F0D37A1DFABB8A00E97FBE /* SiteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0D3701DFABB8A00E97FBE /* SiteCell.m */; };
+		D9F0D37B1DFABB8A00E97FBE /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0D3721DFABB8A00E97FBE /* TableViewController.m */; };
+		D9F0D37C1DFABB8A00E97FBE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0D3741DFABB8A00E97FBE /* ViewController.m */; };
+		D9F0D3831DFABC3100E97FBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9F0D37F1DFABC3100E97FBE /* LaunchScreen.storyboard */; };
+		D9F0D3841DFABC3100E97FBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9F0D3811DFABC3100E97FBE /* Main.storyboard */; };
+		D9F0D38B1DFAC43900E97FBE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9F0D38A1DFAC43900E97FBE /* Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		D9F0D3851DFABE5800E97FBE /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = text.plist.xcspec;
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXFileReference section */
+		CE16543C1DE3BE2B00DB69C8 /* MiramDMA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiramDMA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE3507311DE40D3A009F8946 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		CE3507321DE40D3A009F8946 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		D9F0D3681DFABB8A00E97FBE /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MiramDemo/AppDelegate.h; sourceTree = "<group>"; };
+		D9F0D3691DFABB8A00E97FBE /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = MiramDemo/AppDelegate.m; sourceTree = "<group>"; };
+		D9F0D36A1DFABB8A00E97FBE /* Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Data.h; path = MiramDemo/Data.h; sourceTree = "<group>"; };
+		D9F0D36B1DFABB8A00E97FBE /* Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Data.m; path = MiramDemo/Data.m; sourceTree = "<group>"; };
+		D9F0D36D1DFABB8A00E97FBE /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MiramDemo/main.m; sourceTree = "<group>"; };
+		D9F0D36E1DFABB8A00E97FBE /* prueba.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = prueba.sqlite; path = MiramDemo/prueba.sqlite; sourceTree = "<group>"; };
+		D9F0D36F1DFABB8A00E97FBE /* SiteCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SiteCell.h; path = MiramDemo/SiteCell.h; sourceTree = "<group>"; };
+		D9F0D3701DFABB8A00E97FBE /* SiteCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SiteCell.m; path = MiramDemo/SiteCell.m; sourceTree = "<group>"; };
+		D9F0D3711DFABB8A00E97FBE /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewController.h; path = MiramDemo/TableViewController.h; sourceTree = "<group>"; };
+		D9F0D3721DFABB8A00E97FBE /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableViewController.m; path = MiramDemo/TableViewController.m; sourceTree = "<group>"; };
+		D9F0D3731DFABB8A00E97FBE /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = MiramDemo/ViewController.h; sourceTree = "<group>"; };
+		D9F0D3741DFABB8A00E97FBE /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = MiramDemo/ViewController.m; sourceTree = "<group>"; };
+		D9F0D3801DFABC3100E97FBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = MiramDemo/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		D9F0D3821DFABC3100E97FBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = MiramDemo/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		D9F0D38A1DFAC43900E97FBE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MiramDemo/Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE1654391DE3BE2B00DB69C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3507331DE40D3A009F8946 /* libsqlite3.0.tbd in Frameworks */,
+				CE3507341DE40D3A009F8946 /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE1654331DE3BE2B00DB69C8 = {
+			isa = PBXGroup;
+			children = (
+				D9F0D38A1DFAC43900E97FBE /* Info.plist */,
+				CE3507311DE40D3A009F8946 /* libsqlite3.0.tbd */,
+				CE3507321DE40D3A009F8946 /* libsqlite3.tbd */,
+				D9F0D37D1DFABBA400E97FBE /* SubClases */,
+				CE16543E1DE3BE2B00DB69C8 /* Mains */,
+				CE16543D1DE3BE2B00DB69C8 /* MiriamDMA */,
+			);
+			sourceTree = "<group>";
+		};
+		CE16543D1DE3BE2B00DB69C8 /* MiriamDMA */ = {
+			isa = PBXGroup;
+			children = (
+				CE16543C1DE3BE2B00DB69C8 /* MiramDMA.app */,
+			);
+			name = MiriamDMA;
+			sourceTree = "<group>";
+		};
+		CE16543E1DE3BE2B00DB69C8 /* Mains */ = {
+			isa = PBXGroup;
+			children = (
+				D9F0D37F1DFABC3100E97FBE /* LaunchScreen.storyboard */,
+				D9F0D3811DFABC3100E97FBE /* Main.storyboard */,
+			);
+			name = Mains;
+			path = AppDemo;
+			sourceTree = "<group>";
+		};
+		D9F0D3671DFABB6D00E97FBE /* Clases */ = {
+			isa = PBXGroup;
+			children = (
+				D9F0D3681DFABB8A00E97FBE /* AppDelegate.h */,
+				D9F0D36A1DFABB8A00E97FBE /* Data.h */,
+				D9F0D36F1DFABB8A00E97FBE /* SiteCell.h */,
+				D9F0D3711DFABB8A00E97FBE /* TableViewController.h */,
+				D9F0D3731DFABB8A00E97FBE /* ViewController.h */,
+				D9F0D37E1DFABBE600E97FBE /* Base de datos */,
+			);
+			name = Clases;
+			sourceTree = "<group>";
+		};
+		D9F0D37D1DFABBA400E97FBE /* SubClases */ = {
+			isa = PBXGroup;
+			children = (
+				D9F0D3691DFABB8A00E97FBE /* AppDelegate.m */,
+				D9F0D36B1DFABB8A00E97FBE /* Data.m */,
+				D9F0D3721DFABB8A00E97FBE /* TableViewController.m */,
+				D9F0D36D1DFABB8A00E97FBE /* main.m */,
+				D9F0D3741DFABB8A00E97FBE /* ViewController.m */,
+				D9F0D3701DFABB8A00E97FBE /* SiteCell.m */,
+				D9F0D3671DFABB6D00E97FBE /* Clases */,
+			);
+			name = SubClases;
+			sourceTree = "<group>";
+		};
+		D9F0D37E1DFABBE600E97FBE /* Base de datos */ = {
+			isa = PBXGroup;
+			children = (
+				D9F0D36E1DFABB8A00E97FBE /* prueba.sqlite */,
+			);
+			name = "Base de datos";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE16543B1DE3BE2B00DB69C8 /* MiramDMA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE1654531DE3BE2B00DB69C8 /* Build configuration list for PBXNativeTarget "MiramDMA" */;
+			buildPhases = (
+				CE1654381DE3BE2B00DB69C8 /* Sources */,
+				CE1654391DE3BE2B00DB69C8 /* Frameworks */,
+				CE16543A1DE3BE2B00DB69C8 /* Resources */,
+			);
+			buildRules = (
+				D9F0D3851DFABE5800E97FBE /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = MiramDMA;
+			productName = AppDemo;
+			productReference = CE16543C1DE3BE2B00DB69C8 /* MiramDMA.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE1654341DE3BE2B00DB69C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Patrones;
+				TargetAttributes = {
+					CE16543B1DE3BE2B00DB69C8 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = CE1654371DE3BE2B00DB69C8 /* Build configuration list for PBXProject "MiramDMA" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE1654331DE3BE2B00DB69C8;
+			productRefGroup = CE16543D1DE3BE2B00DB69C8 /* MiriamDMA */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE16543B1DE3BE2B00DB69C8 /* MiramDMA */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE16543A1DE3BE2B00DB69C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9F0D38B1DFAC43900E97FBE /* Info.plist in Resources */,
+				D9F0D3831DFABC3100E97FBE /* LaunchScreen.storyboard in Resources */,
+				D9F0D3791DFABB8A00E97FBE /* prueba.sqlite in Resources */,
+				D9F0D3841DFABC3100E97FBE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE1654381DE3BE2B00DB69C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9F0D37C1DFABB8A00E97FBE /* ViewController.m in Sources */,
+				D9F0D3751DFABB8A00E97FBE /* AppDelegate.m in Sources */,
+				D9F0D3781DFABB8A00E97FBE /* main.m in Sources */,
+				D9F0D37A1DFABB8A00E97FBE /* SiteCell.m in Sources */,
+				D9F0D37B1DFABB8A00E97FBE /* TableViewController.m in Sources */,
+				D9F0D3761DFABB8A00E97FBE /* Data.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D9F0D37F1DFABC3100E97FBE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9F0D3801DFABC3100E97FBE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D9F0D3811DFABC3100E97FBE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9F0D3821DFABC3100E97FBE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE1654511DE3BE2B00DB69C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE1654521DE3BE2B00DB69C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE1654541DE3BE2B00DB69C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "$(SRCROOT)/MiramDemo/Info.plist";
+				"LD_MAP_FILE_PATH[arch=*]" = "$(TARGET_TEMP_DIR)/$(PRODUCT_NAME)-LinkMap-$(CURRENT_VARIANT)-$(CURRENT_ARCH).txt";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Miriam.MiriamDMA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE1654551DE3BE2B00DB69C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "$(SRCROOT)/MiramDemo/Info.plist";
+				"LD_MAP_FILE_PATH[arch=*]" = "$(TARGET_TEMP_DIR)/$(PRODUCT_NAME)-LinkMap-$(CURRENT_VARIANT)-$(CURRENT_ARCH).txt";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Miriam.MiriamDMA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE1654371DE3BE2B00DB69C8 /* Build configuration list for PBXProject "MiramDMA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE1654511DE3BE2B00DB69C8 /* Debug */,
+				CE1654521DE3BE2B00DB69C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE1654531DE3BE2B00DB69C8 /* Build configuration list for PBXNativeTarget "MiramDMA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE1654541DE3BE2B00DB69C8 /* Debug */,
+				CE1654551DE3BE2B00DB69C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE1654341DE3BE2B00DB69C8 /* Project object */;
+}
