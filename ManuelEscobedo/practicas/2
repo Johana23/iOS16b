@@ -1,2 +1,0 @@
-var saludando = "saludando remotamente o ke ace? "
-print (saludando)

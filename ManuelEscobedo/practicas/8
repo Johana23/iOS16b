@@ -1,3 +1,0 @@
-et apples = 3
-let oranges = 5
-let fruitsummary = "I have \(apples + oranges) pieces of fruit"

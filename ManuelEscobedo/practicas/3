@@ -1,3 +1,0 @@
-
-var cursos = ["calculo", "Diseno", "programacion","SLalo"]
-print (cursos)

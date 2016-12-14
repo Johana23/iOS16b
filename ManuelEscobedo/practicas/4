@@ -1,4 +1,0 @@
-var m = 2
-
-while m < 500 {
-    m = m * 2
