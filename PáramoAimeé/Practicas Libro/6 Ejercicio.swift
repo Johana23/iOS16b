@@ -1,4 +1,4 @@
-import Fundation
+import Foundation
 
 var x=Int
 var y=Int
